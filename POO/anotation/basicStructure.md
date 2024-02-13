@@ -10,6 +10,7 @@
   <br><br>
 - Para recorrer a um método ou propriedade da classe, use `->` entre o Objeto instanciado e a propriedade desejada. <br>
   (Caso queira recorrer a uma propriedade dentro da propria classe, utilize o `This` ao invés uma instância)<br>
+  <b>Aviso</b>
   ex:
 
   ```php

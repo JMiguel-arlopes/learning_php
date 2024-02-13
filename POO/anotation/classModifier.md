@@ -14,8 +14,12 @@
   }
   ```
 
-- Classe com `abstract` não pode ser instanciada, apenas herdada. Foi feita pra isso! <br>
-  ex:
+- Classe com `abstract` não pode ser instanciada, apenas herdada. Foi feita pra isso!
+  <br>
+  Nela você pode criar métodos e propriedades completas para outras classes absorverem.
+  <br>
+  exemplo de como criar:
+
   ```php
   abstract class ClassName{
     ...
