@@ -7,5 +7,5 @@
         }
     }
 
-    spl_autoload_register('autoLoad')
+    spl_autoload_register('autoLoad');
 ?>
