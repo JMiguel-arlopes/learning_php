@@ -46,4 +46,11 @@
         $sql->execute();
         echo "clinte inserindo com sucesso!";
     }
+
+    // pegar dado diretamente da url
+    $class = $_GET['dado'];
+    if(isset($class)){
+        echo "a classe";
+    }
+
 ?>
