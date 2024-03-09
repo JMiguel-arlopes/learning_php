@@ -49,8 +49,10 @@
 
     // pegar dado diretamente da url
     $class = $_GET['dado'];
+    $method = $_GET['dado2'];
+    $parameter = $_GET['dado3'];
     if(isset($class)){
-        echo "a classe";
+        echo "a $class, $method, $parameter";
     }
 
 ?>
